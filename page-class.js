@@ -1,6 +1,6 @@
 
 function pagination(pagecount,page,page_size,tid,allentries,parameter){
-   var sub_page = 5;//中间显示页码数，必须为不等于1的单数
+   var sub_page = 5;//page numbers,Odd numbers greater than 1.
    if (sub_page%2 === 0) {
 	   sub_page = sub_page + 1;
    }
